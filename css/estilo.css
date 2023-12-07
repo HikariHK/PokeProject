@@ -1,0 +1,209 @@
+body{
+    font-family: Roboto Slab, sans-serif;
+    background: rgb(199, 199, 199);
+    margin: 0;
+}
+
+nav{
+    background: #fff;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0,0,0), 0 1px 2px rgba(0,0,0);
+    margin-top: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.background{
+    background-image: url(../images/space.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 3vh;
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.carrousel-wrapper {
+    height: 720px;
+    background-image: url(../images/pokeball.jpg);
+    text-align: center;
+    color: white;
+    margin-top: 65px;
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.carrousel {
+    display: flex;
+    flex-direction: column; /* Change flex direction to column */
+    text-align: center;
+    align-items: center;
+}
+
+.carrousel-wrapper .carrousel .poke-summary2 {
+    max-width: 580px;
+    margin: 50px auto; /* Adjust the margin-top to create space */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.carrousel-wrapper .carrousel .carrousel-title {
+    background-color: rgba(0, 0, 0, 0.219);
+    box-shadow: 0 5px 5px rgba(0,0,0), 0 1px 2px rgba(0,0,0);
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: #ffffff;
+    border-width: 7px 7px 7px 7px;
+    border-style: solid;
+    display: flex;
+    margin: 0;
+}
+
+.carrousel h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 80px;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0), 0 1px 2px rgba(0, 0, 0);
+    margin: 0; /* Add this line to remove margin */
+}
+
+footer{
+    text-align: center;
+    background: #fff;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+.poke-status-wrapper{
+    padding: 100px;
+    margin: auto;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.poke-status{
+    position: static;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: stretch;
+    width: 29%;
+    height: 100%;
+    padding: 0px;
+    margin: 26px;
+}
+
+.poke-status .poke-card{
+    background: rgb(212, 212, 212);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 250px;
+    height: 250px;
+    width: auto;
+    border-radius: 25px 25px 0px 0px;
+    border-color: #000000;
+    border-width: 2px 2px 0px 2px;
+    border-style: solid;
+}
+
+.poke-status .poke-name{
+    margin: 0;
+    background: rgb(255, 255, 255);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-color: #000000;
+    border-width: 0px 2px 0px 2px;
+    border-style: solid;
+}
+
+.poke-status .poke-att {
+    margin: 0;
+    padding-top: 0.1mm;
+    padding-bottom: 0.1mm;
+    padding-left: 3%;
+    text-align: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-color: #000000;
+    border-width: 0px 2px 1.5px 2px;
+    border-style: solid;
+}
+
+.poke-att ul li{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    font-weight: bold;
+}
+
+.poke-status .poke-summary{
+    flex: 1;
+    padding-top: 0.1mm;
+    text-align: left;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+    display: flex;
+    align-items: left;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 0px 0px 25px 25px;
+    border-color: #000000;
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.poke-att .fire{
+    background: orange;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.poke-att .fly{
+    background: rgb(155, 235, 255);
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.poke-att{
+    padding-right: 50px;
+}
+
+.poke-status .poke-name h2{
+    margin: 1.50mm;
+}
