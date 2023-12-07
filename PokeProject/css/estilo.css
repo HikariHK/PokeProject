@@ -93,7 +93,7 @@ footer{
 }
 
 .poke-status .poke-card{
-    background: rgb(212, 212, 212);
+    background: rgba(212, 212, 212, 0.411);
     padding-top: 10px;
     padding-bottom: 10px;
     max-height: 250px;
