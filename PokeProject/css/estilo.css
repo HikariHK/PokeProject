@@ -90,6 +90,11 @@ footer{
     height: 100%;
     padding: 0px;
     margin: 26px;
+    transition-duration: 230ms;
+}
+
+.poke-status:hover{
+    transform: scale(1.08);
 }
 
 .poke-status .poke-card{
